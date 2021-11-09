@@ -1,0 +1,246 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+  font-family: "poppins", sans-serif;
+  background: #0c445b;
+  color: white;
+}
+
+body a {
+  -webkit-transition: 0.25s linear;
+  transition: 0.25s linear;
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+
+body a:focus {
+  outline: none;
+}
+
+body ul {
+  margin: 0;
+  padding: 0;
+}
+
+body ul li {
+  list-style-type: none;
+}
+
+body p {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.sec-padding {
+  margin: 70px 0;
+}
+
+.navigation .navbar-expand-lg .navbar-collapse {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navigation .navbar-light .navbar-nav .nav-link {
+  color: #bcb289;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.navigation .navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2.5 rem;
+  padding-left: 2.5 rem;
+}
+
+.navigation li {
+  float: left;
+  position: relative;
+  padding: 10px 20px;
+  overflow: hidden;
+}
+
+.navigation li::after {
+  background-color: #bcb289;
+  content: "";
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 5px;
+  -webkit-transition: width 0.35s ease 0s;
+  transition: width 0.35s ease 0s;
+  position: absolute;
+}
+
+.navigation li:hover::after {
+  width: 100%;
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-logo {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+
+.header-logo img {
+  height: auto;
+  width: 350px;
+}
+
+.slider-single img {
+  height: 600px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: 1px 1px black;
+          box-shadow: 1px 1px black;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+.ma-first-image img {
+  margin-top: 50px;
+  height: 300px;
+  width: 100%;
+}
+
+.right-wrapper {
+  padding: 40px 50px;
+}
+
+.sec-title {
+  margin: 40px 0;
+}
+
+.sec-title h2 {
+  font-weight: 300;
+  font-size: 32px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+}
+
+.sec-title h2::after {
+  height: 3px;
+  width: 60%;
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  background: #bcb289;
+  left: 0;
+}
+
+.learn_more a {
+  background: #bcb289;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 20px 0;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.learn_more a:hover {
+  background: none;
+  outline: 1px solid #bcb289;
+  color: #bcb289;
+}
+
+.ms-single {
+  text-align: center;
+  -webkit-transition: 0.25s linear;
+  transition: 0.25s linear;
+  padding: 12px;
+}
+
+.ms-single a {
+  color: white;
+}
+
+.ms-single:hover {
+  -webkit-box-shadow: 9px 14px 20px 0px #0000004a;
+          box-shadow: 9px 14px 20px 0px #0000004a;
+}
+
+.mss-text {
+  margin: 20px 0;
+}
+
+.mss-text p {
+  text-align: center;
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+.mss-title {
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+
+.mss-title h5 {
+  font-weight: 300;
+}
+
+.mss-logo img {
+  height: 60px;
+  width: 60px;
+}
+
+.mp-image img {
+  height: 500px;
+  width: 100%;
+  -webkit-box-shadow: 9px 14px 20px 0px #0000004a;
+          box-shadow: 9px 14px 20px 0px #0000004a;
+}
+
+.ps-image {
+  margin-top: 80px;
+}
+
+.ps-image img {
+  height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+}
+
+.ps-image img::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  content: "";
+  height: 100%;
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
