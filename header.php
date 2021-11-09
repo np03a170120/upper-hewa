@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
         rel="stylesheet">
     <title>Upper Hewa</title>
+    <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/css/all.css">
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">

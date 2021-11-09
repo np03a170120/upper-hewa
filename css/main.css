@@ -414,4 +414,101 @@ body p {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
 }
+
+.main-footer {
+  padding: 50px;
+  background: #bcb289;
+  color: #0c445b;
+}
+
+.main-footer .mf-logo img {
+  height: 180px;
+  width: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.main-footer .mf-logo h5 {
+  color: white;
+}
+
+.contact-detail {
+  margin-top: 50px;
+}
+
+.contact-detail li {
+  margin-bottom: 10px;
+}
+
+.contact-detail li a {
+  color: #0c445b;
+  font-size: 14px;
+}
+
+.contact-detail li a i {
+  margin-right: 10px;
+}
+
+.footer-title h6 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.footer-link {
+  margin-top: 50px;
+}
+
+.footer-link li {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.footer-link li a {
+  color: #0c445b;
+  margin-left: 8px;
+}
+
+.footer-link li::before {
+  content: "\f0fe";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+}
+
+.footer-link-download {
+  margin-top: 50px;
+}
+
+.footer-link-download li {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.footer-link-download li a {
+  color: #0c445b;
+  margin-left: 8px;
+}
+
+.footer-link-download li::before {
+  content: "\f07c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+}
+
+.footer-link-news {
+  margin-top: 50px;
+  position: relative;
+}
+
+.footer-link-news li {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.footer-link-news li a {
+  color: #0c445b;
+  font-size: 12px;
+}
 /*# sourceMappingURL=main.css.map */

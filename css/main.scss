@@ -321,8 +321,94 @@
     }
 }
 
+.main-footer {
+    padding: 50px;
+    background: $secondary_color;
+    color: $primary_color;
+    .mf-logo {
+        img {
+            height: 180px;
+            width: 250px;
+            object-fit: contain;
+        }
+        h5 {
+            color: white;
+        }
+    }
+}
+
+.contact-detail {
+    margin-top: 50px;
+    li {
+        a {
+            color: $primary_color;
+            font-size: 14px;
+            i {
+                margin-right: 10px;
+            }
+        }
+        margin-bottom: 10px;
+    }
+}
+
 // .mg-single:nth-child(odd) {
 //     img {
 //         height: 400px;
 //     }
 // }
+.footer-title {
+    h6 {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: white;
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+
+.footer-link {
+    margin-top: 50px;
+    li {
+        a {
+            color: $primary_color;
+            margin-left: 8px;
+        }
+        margin-bottom: 10px;
+        text-transform: capitalize;
+        &::before {
+            content: "\f0fe";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 400;
+        }
+    }
+}
+
+.footer-link-download {
+    margin-top: 50px;
+    li {
+        a {
+            color: $primary_color;
+            margin-left: 8px;
+        }
+        margin-bottom: 10px;
+        text-transform: capitalize;
+        &::before {
+            content: "\f07c";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 400;
+        }
+    }
+}
+
+.footer-link-news {
+    margin-top: 50px;
+    position: relative;
+    li {
+        a {
+            color: $primary_color;
+            font-size: 12px;
+        }
+        margin-bottom: 10px;
+        text-transform: capitalize;
+    }
+}
