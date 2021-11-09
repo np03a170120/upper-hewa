@@ -119,7 +119,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 
@@ -128,7 +127,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="right-wrapper">
+                <div class="left-wrapper">
                     <div class="sec-title">
                         <h2>Our projects</h2>
                     </div>
@@ -139,23 +138,222 @@
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni explicabo sunt facere ab
                             laboriosam quas, nemo voluptatem ratione ipsum cupiditate ea corrupti tempore eos maiores
                             necessitatibus corporis possimus? Obcaecati, saepe.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni explicabo sunt facere ab
+                            laboriosam quas, nemo voluptatem ratione ipsum cupiditate ea corrupti tempore eos maiores
+                            necessitatibus corporis possimus? Obcaecati, saepe.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="mp-image">
-                    <img src="./images/banner.jpg" alt="">
-                </div>
-            </div>
+            <!-- project - two -->
             <div class="col-md-6">
                 <div class="project-single">
-                    <div class="ps-image">
-                        <img src="./images/banner-0.jpg" alt="">
-                    </div>
+                    <a href="#">
+                        <div class="ps-design">
+                            <hr>
+                            <h4>01</h4>
+                        </div>
+
+                        <div class="ps-image less-margin">
+                            <img src="./images/banner.jpg" alt="">
+                        </div>
+                        <div class="ps-title less-bottom-two">
+                            <h5>Koshi Hydropower Project</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- project - one -->
+            <div class="col-md-6">
+                <div class="project-single">
+                    <a href="#">
+                        <div class="ps-image">
+                            <img src="./images/banner-0.jpg" alt="">
+                        </div>
+                        <div class="ps-title">
+                            <h5>Koshi Hydropower Project</h5>
+                        </div>
+                        <div class="ps-design">
+                            <hr>
+                            <h4>02</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- project - two -->
+            <div class="col-md-6">
+                <div class="project-single">
+                    <a href="#">
+                        <div class="ps-design more-margin ">
+                            <hr>
+                            <h4>03</h4>
+                        </div>
+
+                        <div class="ps-image less-margin">
+                            <img src="./images/banner-1.jpg" alt="">
+                        </div>
+                        <div class="ps-title less-bottom">
+                            <h5>Koshi Hydropower Project</h5>
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="learn_more text-center">
+                    <a href="#">View All Projects</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- NEWS -->
+<section class="main-news sec-padding">
+    <div class="container">
+        <div class="sec-title">
+            <h2>Recent News</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="single-news">
+                    <a href="#">
+                        <div class="sn-title">
+                            <h5>News Title</h5>
+                            <span>25th October,2022</span>
+                        </div>
+                        <div class="sn-text">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In atque sed deserunt, ullam
+                                expedita nulla illo ipsum ratione labore repellendus temporibus id facere, fugiat illum
+                                porro. Blanditiis architecto animi error.</p>
+                        </div>
+                        <hr>
+                    </a>
+                </div>
+                <div class="single-news">
+                    <a href="#">
+                        <div class="sn-title">
+                            <h5>News Title</h5>
+                            <span>25th October,2022</span>
+                        </div>
+                        <div class="sn-text">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In atque sed deserunt, ullam
+                                expedita nulla illo ipsum ratione labore repellendus temporibus id facere, fugiat illum
+                                porro. Blanditiis architecto animi error.</p>
+                        </div>
+                        <hr>
+                    </a>
+                </div>
+                <div class="single-news">
+                    <a href="#">
+                        <div class="sn-title">
+                            <h5>News Title</h5>
+                            <span>25th October,2022</span>
+                        </div>
+                        <div class="sn-text">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In atque sed deserunt, ullam
+                                expedita nulla illo ipsum ratione labore repellendus temporibus id facere, fugiat illum
+                                porro. Blanditiis architecto animi error.</p>
+                        </div>
+                        <hr>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mn-image">
+                    <img src="./images/banner-0.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="learn_more">
+            <a href="#">View All Projects</a>
+        </div>
+    </div>
+</section>
+
+<!-- Downloads -->
+<section class="main-download sec-padding">
+    <div class="container">
+        <div class="sec-title">
+            <h2>Downloads</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="download-single">
+                    <a href="#">
+                        <div class="ds-icon">
+                            <img src="./images/download-folder.png" alt="">
+                        </div>
+                        <div class="ds-title">
+                            <h6>Financial Report 2022</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="download-single">
+                    <a href="#">
+                        <div class="ds-icon">
+                            <img src="./images/download-folder.png" alt="">
+                        </div>
+                        <div class="ds-title">
+                            <h6>Financial Report 2022</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="download-single">
+                    <a href="#">
+                        <div class="ds-icon">
+                            <img src="./images/download-folder.png" alt="">
+                        </div>
+                        <div class="ds-title">
+                            <h6>Financial Report 2022</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="download-single">
+                    <a href="#">
+                        <div class="ds-icon">
+                            <img src="./images/download-folder.png" alt="">
+                        </div>
+                        <div class="ds-title">
+                            <h6>Financial Report 2022</h6>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<!-- Gallery -->
+<section class="main-gallery sec-padding">
+    <div class="container">
+        <div class="sec-title">
+            <h2>Gallery</h2>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="lazy">
+            <div class="mg-single">
+                <img data-lazy="./images/banner-0.jpg" alt="">
+            </div>
+            <div class="mg-single">
+                <img data-lazy="./images/banner-0.jpg" alt="">
+            </div>
+            <div class="mg-single">
+                <img data-lazy="./images/banner-0.jpg" alt="">
+            </div>
+            <div class="mg-single">
+                <img data-lazy="./images/banner-1.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+</section>
 <?php include'footer.php'?>
