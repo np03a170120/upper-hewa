@@ -743,4 +743,141 @@ body p {
 .custom img {
   width: 80px !important;
 }
+
+.nc-image img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.nc-date {
+  color: #bcb289;
+  font-size: 12px;
+  padding: 10px 0;
+}
+
+.nc-date i {
+  margin-right: 8px;
+}
+
+.nc-title h6 {
+  color: white;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.news-card {
+  padding: 20px;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.news-card hr {
+  background: #bcb289;
+}
+
+.news-card:hover {
+  -webkit-box-shadow: 9px 14px 20px 0px #0000004a;
+          box-shadow: 9px 14px 20px 0px #0000004a;
+}
+
+.news-title {
+  padding: 20px 0;
+}
+
+.news-title h3 {
+  font-weight: 300;
+  line-height: 34px;
+}
+
+.news-image {
+  padding: 20px 0;
+}
+
+.news-image img {
+  height: auto;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.news-text {
+  margin: 30px 0;
+}
+
+.related-news {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.related-news {
+  padding: 10px 0;
+}
+
+.related-news .single-news {
+  padding: 0;
+}
+
+.related-news .sn-text p {
+  font-size: 12px;
+}
+
+.related-news .sec-title h2 {
+  font-size: 24px;
+}
+
+.related-news .sn-title h5 {
+  font-size: 18px;
+}
+
+.ds-title h6 {
+  line-height: 25px;
+}
+
+.gallery-single {
+  margin: 20px 0;
+  position: relative;
+}
+
+.gallery-single img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+}
+
+.gallery-single::after {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.801);
+  content: "";
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.gallery-single:hover::after {
+  visibility: visible;
+}
+
+.gallery-single:hover span {
+  visibility: visible;
+  z-index: 2;
+}
+
+.gallery-single span {
+  visibility: hidden;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  font-size: 24px;
+  color: #bcb289;
+}
 /*# sourceMappingURL=main.css.map */

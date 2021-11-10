@@ -41,7 +41,10 @@
                                 <a class="nav-link" href="team.php">Team</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">recent update</a>
+                                <a class="nav-link" href="news.php">recent update</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.php">Gallery</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact Us</a>
