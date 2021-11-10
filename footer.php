@@ -1,24 +1,7 @@
- <footer class="main-footer sec-padding">
+ <footer class="main-footer sec-padding-footer">
      <div class="container">
          <div class="row">
-             <div class="col-md-3">
-                 <!-- <img src="./images/logo.png" alt=""> -->
-                 <div class="footer-title">
-                     <h6>Contact</h6>
-                 </div>
 
-                 <ul class="contact-detail">
-                     <li><a href="#">
-                             <i class="fas fa-headphones-alt"></i><span>(977)-98477798341</span>
-                         </a></li>
-                     <li><a href="#">
-                             <i class="fas fa-envelope"></i><span>company@email.com</span>
-                         </a></li>
-                     <li><a href="#">
-                             <i class="fas fa-map-marker-alt"></i><span>Maitidevi, kathmandu</span>
-                         </a></li>
-                 </ul>
-             </div>
              <div class="col-md-3">
                  <div class="footer-title">
                      <h6>Quick Links</h6>
@@ -48,18 +31,44 @@
                      <h6>Recent News</h6>
                  </div>
                  <ul class="footer-link-news">
-                     <li><a href="#">Lorem ipsum dolor sit, amet consecteturelit</a>
+                     <li><a href="#">Lorem ipsum dolor sit, amet
+
+                         </a>
                      </li>
                      <hr>
-                     <li><a href="#">Lorem ipsum dolor sit, amet consecteturelit</a>
+                     <li><a href="#">Lorem ipsum dolor sit, amet </a>
                      </li>
                      <hr>
-                     <li><a href="#">Lorem ipsum dolor sit, amet consecteturelit</a>
+                     <li><a href="#">Lorem ipsum dolor sit, amet </a>
+                     </li>
+                     <hr>
+                     <li><a href="#">Lorem ipsum dolor sit, amet </a>
                      </li>
                      <hr>
                  </ul>
              </div>
+             <div class="col-md-3">
+                 <!-- <img src="./images/logo.png" alt=""> -->
+                 <div class="footer-title">
+                     <h6>Contact</h6>
+                 </div>
+
+                 <ul class="contact-detail">
+                     <li><a href="#">
+                             <i class="fas fa-headphones-alt"></i><span>(977)-98477798341</span>
+                         </a></li>
+                     <li><a href="#">
+                             <i class="fas fa-envelope"></i><span>company@email.com</span>
+                         </a></li>
+                     <li><a href="#">
+                             <i class="fas fa-map-marker-alt"></i><span>Maitidevi, kathmandu</span>
+                         </a></li>
+                 </ul>
+             </div>
          </div>
+     </div>
+     <div class="footer-bottom">
+         <span>Copyright 2021 Upperhewa Hydropower Company PVT.LTD.</span>
      </div>
  </footer>
 

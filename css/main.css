@@ -416,7 +416,7 @@ body p {
 }
 
 .main-footer {
-  padding: 50px;
+  padding-top: 50px;
   background: #bcb289;
   color: #0c445b;
 }
@@ -499,16 +499,38 @@ body p {
 
 .footer-link-news {
   margin-top: 50px;
-  position: relative;
 }
 
 .footer-link-news li {
   margin-bottom: 10px;
   text-transform: capitalize;
+  position: relative;
+  margin-right: 10px;
 }
 
 .footer-link-news li a {
   color: #0c445b;
   font-size: 12px;
+  margin-left: 10px;
+}
+
+.footer-link-news li::before {
+  content: "\f1ea";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  left: 0;
+  top: 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 12px;
+  background: #0c445b;
+  color: white;
+  padding: 20px;
+}
+
+.sec-padding-footer {
+  margin-top: 70px;
 }
 /*# sourceMappingURL=main.css.map */
