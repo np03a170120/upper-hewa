@@ -852,6 +852,7 @@
 
 h6,
 h5,
+h3,
 h4 {
     color: white;
 }
@@ -864,7 +865,7 @@ h4 {
     .form-control {
         border: 0;
         border-radius: 0;
-        font-size: 13px;
+        font-size: 12px;
     }
     .social-icons {
         margin: 0;
@@ -890,4 +891,16 @@ h4 {
             color: $secondary_color;
         }
     }
+}
+
+.uk-button-default {
+    background-color: transparent;
+    color: #333;
+    border: 0px solid #e5e5e5;
+}
+
+.fa-play-circle:before {
+    content: "\f144";
+    color: #bcb289;
+    font-size: 28px;
 }

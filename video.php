@@ -16,43 +16,85 @@
             <div class="col-md-4">
                 <div class="gallery-single">
                     <img src="./images/unsplash_REF9zBdzaew.jpg" alt="">
-                    <span><i class="fas fa-expand"></i></span>
+                    <span><a class="uk-button uk-button-default" href="#modal-media-youtube" uk-toggle><i
+                                class="fas fa-play-circle"></i></a></span>
+                    <div id="modal-media-youtube" class="uk-flex-top" uk-modal>
+                        <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                            <button class="uk-modal-close-outside" type="button" uk-close></button>
+                            <iframe src="https://www.youtube-nocookie.com/embed/c2pz2mlSfXA" width="1920" height="1080"
+                                frameborder="0" uk-video uk-responsive></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="gallery-single">
                     <img src="./images/unsplash_REF9zBdzaew.jpg" alt="">
-                    <span><i class="fas fa-expand"></i></span>
+                    <span><a class="uk-button uk-button-default" href="#modal-media-youtube" uk-toggle><i
+                                class="fas fa-play-circle"></i></a></span>
+                    <div id="modal-media-youtube" class="uk-flex-top" uk-modal>
+                        <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                            <button class="uk-modal-close-outside" type="button" uk-close></button>
+                            <iframe src="https://www.youtube-nocookie.com/embed/c2pz2mlSfXA" width="1920" height="1080"
+                                frameborder="0" uk-video uk-responsive></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="gallery-single">
                     <img src="./images/unsplash_REF9zBdzaew.jpg" alt="">
-                    <span><i class="fas fa-expand"></i></span>
+                    <span><a class="uk-button uk-button-default" href="#modal-media-youtube" uk-toggle><i
+                                class="fas fa-play-circle"></i></a></span>
+                    <div id="modal-media-youtube" class="uk-flex-top" uk-modal>
+                        <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                            <button class="uk-modal-close-outside" type="button" uk-close></button>
+                            <iframe src="https://www.youtube-nocookie.com/embed/c2pz2mlSfXA" width="1920" height="1080"
+                                frameborder="0" uk-video uk-responsive></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="gallery-single">
                     <img src="./images/unsplash_REF9zBdzaew.jpg" alt="">
-                    <span><i class="fas fa-expand"></i></span>
+                    <span><a class="uk-button uk-button-default" href="#modal-media-youtube" uk-toggle><i
+                                class="fas fa-play-circle"></i></a></span>
+                    <div id="modal-media-youtube" class="uk-flex-top" uk-modal>
+                        <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                            <button class="uk-modal-close-outside" type="button" uk-close></button>
+                            <iframe src="https://www.youtube-nocookie.com/embed/c2pz2mlSfXA" width="1920" height="1080"
+                                frameborder="0" uk-video uk-responsive></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="gallery-single">
                     <img src="./images/unsplash_REF9zBdzaew.jpg" alt="">
-                    <span><i class="fas fa-expand"></i></span>
+                    <span><a class="uk-button uk-button-default" href="#modal-media-youtube" uk-toggle><i
+                                class="fas fa-play-circle"></i></a></span>
+                    <div id="modal-media-youtube" class="uk-flex-top" uk-modal>
+                        <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                            <button class="uk-modal-close-outside" type="button" uk-close></button>
+                            <iframe src="https://www.youtube-nocookie.com/embed/c2pz2mlSfXA" width="1920" height="1080"
+                                frameborder="0" uk-video uk-responsive></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="gallery-single">
                     <img src="./images/unsplash_REF9zBdzaew.jpg" alt="">
-                    <span><i class="fas fa-expand"></i></span>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="gallery-single">
-                    <img src="./images/unsplash_REF9zBdzaew.jpg" alt="">
-                    <span><i class="fas fa-expand"></i></span>
+                    <span><a class="uk-button uk-button-default" href="#modal-media-youtube" uk-toggle><i
+                                class="fas fa-play-circle"></i></a></span>
+                    <div id="modal-media-youtube" class="uk-flex-top" uk-modal>
+                        <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                            <button class="uk-modal-close-outside" type="button" uk-close></button>
+                            <iframe src="https://www.youtube-nocookie.com/embed/c2pz2mlSfXA" width="1920" height="1080"
+                                frameborder="0" uk-video uk-responsive></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

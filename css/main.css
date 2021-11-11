@@ -977,6 +977,7 @@ body p {
 
 h6,
 h5,
+h3,
 h4 {
   color: white;
 }
@@ -992,7 +993,7 @@ h4 {
 .header-top .form-control {
   border: 0;
   border-radius: 0;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .header-top .social-icons {
@@ -1021,5 +1022,17 @@ h4 {
 
 .mf-contact li a {
   color: #bcb289;
+}
+
+.uk-button-default {
+  background-color: transparent;
+  color: #333;
+  border: 0px solid #e5e5e5;
+}
+
+.fa-play-circle:before {
+  content: "\f144";
+  color: #bcb289;
+  font-size: 28px;
 }
 /*# sourceMappingURL=main.css.map */
