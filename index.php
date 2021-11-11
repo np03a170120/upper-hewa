@@ -8,7 +8,7 @@
                     <img src="./images/banner-0.jpg" alt="">
                 </div>
             </div>
-            <div class="col-md-4 no-pad j-c-c">
+            <div class="col-md-4 no-pad">
                 <div class="main-about-slider">
                     <div class="slider-single">
                         <img src="./images/banner.jpg" alt="">

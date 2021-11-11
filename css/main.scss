@@ -9,7 +9,6 @@
     .navbar-light .navbar-nav .nav-link {
         color: $secondary_color;
         text-transform: uppercase;
-        font-weight: 700;
         letter-spacing: 0.5px;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -19,7 +18,7 @@
     li {
         float: left;
         position: relative;
-        padding: 10px 20px;
+        padding: 10px;
         overflow: hidden;
     }
     li::after {
@@ -87,6 +86,7 @@
         text-transform: uppercase;
         position: relative;
         display: inline-block;
+        color: white;
         &::after {
             height: 3px;
             width: 60%;
@@ -763,5 +763,131 @@
         transform: translate(-50%, 50%);
         font-size: 24px;
         color: $secondary_color;
+    }
+}
+
+.cf-title {
+    padding: 30px 0;
+    h5 {
+        font-weight: 300;
+    }
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5 em + 0.75 rem + 2 px);
+    padding: 0.375 rem 0.75 rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1 px solid #ced4da;
+    border-radius: 0.25 rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.contact-form .form-control {
+    border-radius: 0;
+    font-size: 15px;
+    padding: 1.375 rem 0.75 rem;
+}
+
+.contact-form .btn {
+    color: white;
+    outline: none;
+    border: 0;
+    border-radius: 0;
+    background: $secondary_color;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.contact-form .form-control {
+    border-radius: 0;
+    font-size: 15px;
+    padding: 1.375rem 0.75rem;
+}
+
+.ct-title {
+    padding: 30px 0;
+    h5 {
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+}
+
+.j-c-c {
+    display: flex;
+    align-items: center;
+}
+
+.jr {
+    justify-content: right;
+}
+
+.jc {
+    justify-content: center;
+}
+
+.header-top {
+    background: $secondary_color;
+    color: $primary_color;
+    .social-icons {
+        a {
+            i {
+                color: $primary_color;
+            }
+        }
+    }
+}
+
+.color-primary {
+    color: $primary_color;
+}
+
+h6,
+h5,
+h4 {
+    color: white;
+}
+
+.header-top {
+    padding: 2px;
+    .navbar {
+        padding: 0;
+    }
+    .form-control {
+        border: 0;
+        border-radius: 0;
+        font-size: 13px;
+    }
+    .social-icons {
+        margin: 0;
+        li {
+            a {
+                font-size: 13px;
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+.mf-contact {
+    padding: 10px 0;
+    li {
+        margin-bottom: 10px;
+        i {
+            margin-right: 10px;
+        }
+        a {
+            color: $secondary_color;
+        }
     }
 }

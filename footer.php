@@ -71,7 +71,8 @@
          <span>Copyright 2021 Upperhewa Hydropower Company PVT.LTD.</span>
      </div>
  </footer>
-
+ <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.1/dist/js/uikit.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.1/dist/js/uikit-icons.min.js"></script>
  <script src="./js/jquery-3.5.1.js"></script>
  <script src="./js/bootstrap.min.js"></script>
  <script src="./js/slick.min.js"></script>
